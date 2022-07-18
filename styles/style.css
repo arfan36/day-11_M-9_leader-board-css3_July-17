@@ -1,0 +1,31 @@
+/* custom property */
+:root {
+    --color-1: rgb(228, 223, 223);
+    --color-2: rgb(184, 180, 180);
+}
+
+.b-1 {
+    border: 2px solid var(--color-1);
+}
+
+.b-2 {
+    border: 2px solid var(--color-2);
+}
+
+/* top players style */
+
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
